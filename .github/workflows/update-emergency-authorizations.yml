@@ -1,0 +1,44 @@
+name: Mettre à jour les autorisations Article 53
+
+on:
+  schedule:
+    # Quotidien à 05:17 UTC. GitHub peut décaler un lancement planifié.
+    - cron: "17 5 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-emergency-authorizations
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Récupérer le dépôt
+        uses: actions/checkout@v4
+
+      - name: Configurer Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Vérifier le collecteur
+        run: python scripts/test_fetch_emergency_authorizations.py
+
+      - name: Collecter les décisions Article 53
+        run: python scripts/fetch_emergency_authorizations.py
+
+      - name: Publier les changements détectés
+        run: |
+          if git diff --quiet -- emergency-authorizations.json manifest.json; then
+            echo "Aucune modification à publier."
+            exit 0
+          fi
+          git config user.name "PhytoCheck data bot"
+          git config user.email "actions@github.com"
+          git add emergency-authorizations.json manifest.json
+          git commit -m "data: mise à jour autorisations Article 53"
+          git push
