@@ -195,12 +195,18 @@ def update_data(
     source_url: str,
     html: str,
     retrieved_at: str,
+    allow_empty: bool = False,
 ) -> tuple[bool, int, int]:
     """Fusionne les décisions actuelles avec l'historique et met à jour le manifeste."""
     fresh = parse_authorizations(html, source_url, retrieved_at)
     existing = read_json(output_path, [])
     if not isinstance(existing, list):
         raise RuntimeError(f"Le fichier existant {output_path} doit contenir une liste JSON")
+    if not fresh and existing and not allow_empty:
+        raise RuntimeError(
+            "Aucune décision Article 53 n'a été extraite : publication bloquée pour éviter "
+            "d'archiver par erreur les décisions existantes. Utilisez --allow-empty après vérification manuelle."
+        )
 
     existing_by_id = {
         record.get("id"): record
@@ -267,6 +273,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--manifest", type=Path, default=Path("manifest.json"))
     parser.add_argument("--source-url", default=SOURCE_URL)
     parser.add_argument("--html-file", type=Path, help="HTML local pour les tests hors ligne")
+    parser.add_argument("--allow-empty", action="store_true", help="Autorise une publication vide après vérification manuelle")
     return parser.parse_args()
 
 
@@ -280,6 +287,7 @@ def main() -> int:
         args.source_url,
         html,
         retrieved_at,
+        args.allow_empty,
     )
     print(f"Décisions Article 53 extraites : {current_count}")
     print(f"Historique publié : {total_count}")

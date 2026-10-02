@@ -66,7 +66,7 @@ class Article53CollectorTests(unittest.TestCase):
             self.assertEqual((current_count, total_count), (2, 2))
 
             changed, current_count, total_count = collector.update_data(
-                output, manifest, SOURCE_URL, "<div></div>", "2026-10-03T10:00:00Z"
+                output, manifest, SOURCE_URL, "<div></div>", "2026-10-03T10:00:00Z", allow_empty=True
             )
             self.assertTrue(changed)
             self.assertEqual((current_count, total_count), (0, 2))
