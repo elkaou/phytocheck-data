@@ -17,6 +17,7 @@ import hashlib
 import json
 import re
 import sys
+import time
 from datetime import datetime, timezone
 from html.parser import HTMLParser
 from pathlib import Path
@@ -163,11 +164,22 @@ def parse_authorizations(html: str, source_url: str, retrieved_at: str) -> list[
 
 
 def fetch_html(source_url: str) -> str:
-    request = Request(source_url, headers={"User-Agent": USER_AGENT})
-    with urlopen(request, timeout=45) as response:
-        if response.status != 200:
-            raise RuntimeError(f"Réponse HTTP inattendue : {response.status}")
-        return response.read().decode("utf-8", errors="replace")
+    """Télécharge la page officielle avec des tentatives limitées sur erreur réseau."""
+    last_error: Exception | None = None
+    for attempt in range(1, 4):
+        try:
+            request = Request(source_url, headers={"User-Agent": USER_AGENT})
+            with urlopen(request, timeout=45) as response:
+                if response.status != 200:
+                    raise RuntimeError(f"Réponse HTTP inattendue : {response.status}")
+                return response.read().decode("utf-8", errors="replace")
+        except Exception as error:
+            last_error = error
+            if attempt < 3:
+                delay = attempt * 5
+                print(f"Tentative Article 53 {attempt}/3 échouée ({error}) ; nouvel essai dans {delay} s.", file=sys.stderr)
+                time.sleep(delay)
+    raise RuntimeError(f"La page ministérielle reste indisponible après 3 tentatives : {last_error}")
 
 
 def read_json(path: Path, fallback: Any) -> Any:
