@@ -139,6 +139,7 @@ def normalize_record(fields: dict[str, str], source_url: str, retrieved_at: str)
         "decisionPdfUrl": fields.get("decisionPdfUrl", "").strip(),
         "sourcePageUrl": source_url,
         "sourceRetrievedAt": retrieved_at,
+        "sourceStatus": "current",
     }
     if not record["productName"] or not record["cultures"] or not record["decisionPdfUrl"]:
         raise ValueError(f"Décision Article 53 incomplète pour l'AMM {amm}")
@@ -207,7 +208,15 @@ def update_data(
         if isinstance(record, dict) and isinstance(record.get("id"), str)
     }
     fresh_by_id = {record["id"]: record for record in fresh}
-    merged_by_id = dict(existing_by_id)
+    # Les décisions qui disparaissent de la page ministérielle sont conservées
+    # dans l'historique, mais ne doivent plus être considérées actives par l'app.
+    merged_by_id = {
+        record_id: {
+            **record,
+            "sourceStatus": "historical",
+        }
+        for record_id, record in existing_by_id.items()
+    }
     changed = False
 
     for record_id, fresh_record in fresh_by_id.items():

@@ -49,6 +49,7 @@ class Article53CollectorTests(unittest.TestCase):
         self.assertEqual(avadex["issuedAt"], "2026-09-23")
         self.assertEqual(avadex["expiresAt"], "2027-01-21")
         self.assertEqual(avadex["decisionPdfUrl"], "https://agriculture.gouv.fr/telecharger/156224")
+        self.assertEqual(avadex["sourceStatus"], "current")
         self.assertTrue(avadex["id"].startswith("article53-"))
 
     def test_keeps_expired_history_when_the_live_page_changes(self):
@@ -67,10 +68,11 @@ class Article53CollectorTests(unittest.TestCase):
             changed, current_count, total_count = collector.update_data(
                 output, manifest, SOURCE_URL, "<div></div>", "2026-10-03T10:00:00Z"
             )
-            self.assertFalse(changed)
+            self.assertTrue(changed)
             self.assertEqual((current_count, total_count), (0, 2))
             saved = json.loads(output.read_text(encoding="utf-8"))
             self.assertEqual(len(saved), 2)
+            self.assertTrue(all(record["sourceStatus"] == "historical" for record in saved))
 
 
 if __name__ == "__main__":
