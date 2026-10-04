@@ -40,6 +40,13 @@ HTML = """
 
 
 class Article53CollectorTests(unittest.TestCase):
+    def test_reads_json_with_or_without_utf8_bom(self):
+        with tempfile.TemporaryDirectory() as temporary_directory:
+            path = Path(temporary_directory) / "manifest.json"
+            path.write_bytes(b"\xef\xbb\xbf" + b'{"version":"1.0"}')
+
+            self.assertEqual(collector.read_json(path, {}), {"version": "1.0"})
+
     def test_extracts_normalized_decisions_and_official_pdf(self):
         records = collector.parse_authorizations(HTML, SOURCE_URL, "2026-10-02T10:00:00Z")
 

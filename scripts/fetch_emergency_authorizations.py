@@ -185,7 +185,9 @@ def fetch_html(source_url: str) -> str:
 def read_json(path: Path, fallback: Any) -> Any:
     if not path.exists():
         return fallback
-    with path.open("r", encoding="utf-8") as handle:
+    # Certains exports Windows ajoutent un BOM UTF‑8. ``utf-8-sig`` le retire
+    # lorsqu'il est présent, tout en restant strictement compatible avec UTF‑8.
+    with path.open("r", encoding="utf-8-sig") as handle:
         return json.load(handle)
 
 
@@ -292,7 +294,7 @@ def parse_args() -> argparse.Namespace:
 def main() -> int:
     args = parse_args()
     retrieved_at = datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
-    html = args.html_file.read_text(encoding="utf-8") if args.html_file else fetch_html(args.source_url)
+    html = args.html_file.read_text(encoding="utf-8-sig") if args.html_file else fetch_html(args.source_url)
     changed, current_count, total_count = update_data(
         args.output,
         args.manifest,
