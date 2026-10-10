@@ -5,9 +5,9 @@
   "risks_count": 2542,
   "usages_count": 18538,
   "emergency_authorizations": {
-    "updated_at": "2026-10-02T11:49:03Z",
-    "count": 60,
-    "active_source_count": 60,
+    "updated_at": "2026-10-10T11:10:26Z",
+    "count": 64,
+    "active_source_count": 51,
     "source_url": "https://agriculture.gouv.fr/produits-phytopharmaceutiques-autorisations-de-mise-sur-le-marche-dune-duree-maximale-de-120-jours"
   }
 }

@@ -28,6 +28,48 @@
     "id": "article53-8d50f0ab67d56c4800bf"
   },
   {
+    "amm": "2090127",
+    "productName": "ESSEN'ciel",
+    "cultures": "Olivier",
+    "purpose": "Cochenilles",
+    "activeSubstances": "Huile essentielle d’orange douce",
+    "issuedAt": "2026-10-12",
+    "expiresAt": "2027-02-09",
+    "decisionPdfUrl": "https://agriculture.gouv.fr/telecharger/156569",
+    "sourcePageUrl": "https://agriculture.gouv.fr/produits-phytopharmaceutiques-autorisations-de-mise-sur-le-marche-dune-duree-maximale-de-120-jours",
+    "sourceRetrievedAt": "2026-10-10T11:10:26Z",
+    "sourceStatus": "current",
+    "id": "article53-5e18d3204edc48045298"
+  },
+  {
+    "amm": "2100122",
+    "productName": "ALTACOR",
+    "cultures": "Laitue, épinards",
+    "purpose": "Chenilles phytophages",
+    "activeSubstances": "Chlorantraniliprole",
+    "issuedAt": "2026-10-06",
+    "expiresAt": "2027-02-03",
+    "decisionPdfUrl": "https://agriculture.gouv.fr/telecharger/156572",
+    "sourcePageUrl": "https://agriculture.gouv.fr/produits-phytopharmaceutiques-autorisations-de-mise-sur-le-marche-dune-duree-maximale-de-120-jours",
+    "sourceRetrievedAt": "2026-10-10T11:10:26Z",
+    "sourceStatus": "current",
+    "id": "article53-46f96884fe31051de184"
+  },
+  {
+    "amm": "2249994",
+    "productName": "ORONDIS VIP",
+    "cultures": "Porte graine betterave industrielles et fourragères, PPAMC florales et potagères",
+    "purpose": "Maladies fongiques",
+    "activeSubstances": "Métalaxyl-M Oxathiapiproline",
+    "issuedAt": "2026-10-01",
+    "expiresAt": "2027-01-29",
+    "decisionPdfUrl": "https://agriculture.gouv.fr/telecharger/156566",
+    "sourcePageUrl": "https://agriculture.gouv.fr/produits-phytopharmaceutiques-autorisations-de-mise-sur-le-marche-dune-duree-maximale-de-120-jours",
+    "sourceRetrievedAt": "2026-10-10T11:10:26Z",
+    "sourceStatus": "current",
+    "id": "article53-1c7b1782c359831961bf"
+  },
+  {
     "amm": "2220766",
     "productName": "MINECTO GOLD",
     "cultures": "Colza, Colza porte graine, moutarde",
@@ -40,6 +82,20 @@
     "sourceRetrievedAt": "2026-10-02T11:49:03Z",
     "sourceStatus": "current",
     "id": "article53-216164fd7260133e7cab"
+  },
+  {
+    "amm": "2200272",
+    "productName": "EVEREST",
+    "cultures": "Ananas",
+    "purpose": "induction florale",
+    "activeSubstances": "Éthéphon",
+    "issuedAt": "2026-09-24",
+    "expiresAt": "2027-01-22",
+    "decisionPdfUrl": "https://agriculture.gouv.fr/telecharger/156563",
+    "sourcePageUrl": "https://agriculture.gouv.fr/produits-phytopharmaceutiques-autorisations-de-mise-sur-le-marche-dune-duree-maximale-de-120-jours",
+    "sourceRetrievedAt": "2026-10-10T11:10:26Z",
+    "sourceStatus": "current",
+    "id": "article53-3578f6cb2337362e1e70"
   },
   {
     "amm": "2260551",
@@ -654,7 +710,7 @@
     "decisionPdfUrl": "https://agriculture.gouv.fr/telecharger/154927",
     "sourcePageUrl": "https://agriculture.gouv.fr/produits-phytopharmaceutiques-autorisations-de-mise-sur-le-marche-dune-duree-maximale-de-120-jours",
     "sourceRetrievedAt": "2026-10-02T11:49:03Z",
-    "sourceStatus": "current",
+    "sourceStatus": "historical",
     "id": "article53-9c248a2f20cb82a98ac1"
   },
   {
@@ -668,7 +724,7 @@
     "decisionPdfUrl": "https://agriculture.gouv.fr/telecharger/154921",
     "sourcePageUrl": "https://agriculture.gouv.fr/produits-phytopharmaceutiques-autorisations-de-mise-sur-le-marche-dune-duree-maximale-de-120-jours",
     "sourceRetrievedAt": "2026-10-02T11:49:03Z",
-    "sourceStatus": "current",
+    "sourceStatus": "historical",
     "id": "article53-6d394a3c52b648aa8a1c"
   },
   {
@@ -682,7 +738,7 @@
     "decisionPdfUrl": "https://agriculture.gouv.fr/telecharger/154734",
     "sourcePageUrl": "https://agriculture.gouv.fr/produits-phytopharmaceutiques-autorisations-de-mise-sur-le-marche-dune-duree-maximale-de-120-jours",
     "sourceRetrievedAt": "2026-10-02T11:49:03Z",
-    "sourceStatus": "current",
+    "sourceStatus": "historical",
     "id": "article53-cd46e97b869fa591dba0"
   },
   {
@@ -696,7 +752,7 @@
     "decisionPdfUrl": "https://agriculture.gouv.fr/telecharger/154918",
     "sourcePageUrl": "https://agriculture.gouv.fr/produits-phytopharmaceutiques-autorisations-de-mise-sur-le-marche-dune-duree-maximale-de-120-jours",
     "sourceRetrievedAt": "2026-10-02T11:49:03Z",
-    "sourceStatus": "current",
+    "sourceStatus": "historical",
     "id": "article53-11ede3cca32a6f1349c6"
   },
   {
@@ -710,7 +766,7 @@
     "decisionPdfUrl": "https://agriculture.gouv.fr/telecharger/154731",
     "sourcePageUrl": "https://agriculture.gouv.fr/produits-phytopharmaceutiques-autorisations-de-mise-sur-le-marche-dune-duree-maximale-de-120-jours",
     "sourceRetrievedAt": "2026-10-02T11:49:03Z",
-    "sourceStatus": "current",
+    "sourceStatus": "historical",
     "id": "article53-d1e94026412f26da9ef5"
   },
   {
@@ -724,7 +780,7 @@
     "decisionPdfUrl": "https://agriculture.gouv.fr/telecharger/154680",
     "sourcePageUrl": "https://agriculture.gouv.fr/produits-phytopharmaceutiques-autorisations-de-mise-sur-le-marche-dune-duree-maximale-de-120-jours",
     "sourceRetrievedAt": "2026-10-02T11:49:03Z",
-    "sourceStatus": "current",
+    "sourceStatus": "historical",
     "id": "article53-f0319b05b1caebe178af"
   },
   {
@@ -738,7 +794,7 @@
     "decisionPdfUrl": "https://agriculture.gouv.fr/telecharger/154683",
     "sourcePageUrl": "https://agriculture.gouv.fr/produits-phytopharmaceutiques-autorisations-de-mise-sur-le-marche-dune-duree-maximale-de-120-jours",
     "sourceRetrievedAt": "2026-10-02T11:49:03Z",
-    "sourceStatus": "current",
+    "sourceStatus": "historical",
     "id": "article53-6174409028d7e26e148a"
   },
   {
@@ -752,7 +808,7 @@
     "decisionPdfUrl": "https://agriculture.gouv.fr/telecharger/154677",
     "sourcePageUrl": "https://agriculture.gouv.fr/produits-phytopharmaceutiques-autorisations-de-mise-sur-le-marche-dune-duree-maximale-de-120-jours",
     "sourceRetrievedAt": "2026-10-02T11:49:03Z",
-    "sourceStatus": "current",
+    "sourceStatus": "historical",
     "id": "article53-bc5eb9df8817957d9dd2"
   },
   {
@@ -766,7 +822,7 @@
     "decisionPdfUrl": "https://agriculture.gouv.fr/telecharger/154671",
     "sourcePageUrl": "https://agriculture.gouv.fr/produits-phytopharmaceutiques-autorisations-de-mise-sur-le-marche-dune-duree-maximale-de-120-jours",
     "sourceRetrievedAt": "2026-10-02T11:49:03Z",
-    "sourceStatus": "current",
+    "sourceStatus": "historical",
     "id": "article53-3f5616583868961d5cfb"
   },
   {
@@ -780,7 +836,7 @@
     "decisionPdfUrl": "https://agriculture.gouv.fr/telecharger/154668",
     "sourcePageUrl": "https://agriculture.gouv.fr/produits-phytopharmaceutiques-autorisations-de-mise-sur-le-marche-dune-duree-maximale-de-120-jours",
     "sourceRetrievedAt": "2026-10-02T11:49:03Z",
-    "sourceStatus": "current",
+    "sourceStatus": "historical",
     "id": "article53-7bf41f0cf0f903a4d798"
   },
   {
@@ -794,7 +850,7 @@
     "decisionPdfUrl": "https://agriculture.gouv.fr/telecharger/154665",
     "sourcePageUrl": "https://agriculture.gouv.fr/produits-phytopharmaceutiques-autorisations-de-mise-sur-le-marche-dune-duree-maximale-de-120-jours",
     "sourceRetrievedAt": "2026-10-02T11:49:03Z",
-    "sourceStatus": "current",
+    "sourceStatus": "historical",
     "id": "article53-bbd12de48b2932d0e827"
   },
   {
@@ -808,7 +864,7 @@
     "decisionPdfUrl": "https://agriculture.gouv.fr/telecharger/154662",
     "sourcePageUrl": "https://agriculture.gouv.fr/produits-phytopharmaceutiques-autorisations-de-mise-sur-le-marche-dune-duree-maximale-de-120-jours",
     "sourceRetrievedAt": "2026-10-02T11:49:03Z",
-    "sourceStatus": "current",
+    "sourceStatus": "historical",
     "id": "article53-df66b2b54eb7e6be9ee7"
   },
   {
@@ -822,7 +878,7 @@
     "decisionPdfUrl": "https://agriculture.gouv.fr/telecharger/154659",
     "sourcePageUrl": "https://agriculture.gouv.fr/produits-phytopharmaceutiques-autorisations-de-mise-sur-le-marche-dune-duree-maximale-de-120-jours",
     "sourceRetrievedAt": "2026-10-02T11:49:03Z",
-    "sourceStatus": "current",
+    "sourceStatus": "historical",
     "id": "article53-be13ddb934a9a0365ea6"
   },
   {
