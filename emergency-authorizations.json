@@ -1,5 +1,33 @@
 [
   {
+    "amm": "2229997",
+    "productName": "VINAIGRE D'ALCOOL cristal",
+    "cultures": "Oignon, échalote",
+    "purpose": "Fusariose",
+    "activeSubstances": "Acide acétique",
+    "issuedAt": "2026-11-01",
+    "expiresAt": "2027-03-01",
+    "decisionPdfUrl": "https://agriculture.gouv.fr/telecharger/156621",
+    "sourcePageUrl": "https://agriculture.gouv.fr/produits-phytopharmaceutiques-autorisations-de-mise-sur-le-marche-dune-duree-maximale-de-120-jours",
+    "sourceRetrievedAt": "2026-10-16T09:47:35Z",
+    "sourceStatus": "current",
+    "id": "article53-75671b509219756961d7"
+  },
+  {
+    "amm": "2110111",
+    "productName": "MERLIN FLEXX",
+    "cultures": "Canne à sucre",
+    "purpose": "Désherbage",
+    "activeSubstances": "Isoxaflutole + Cyprosulfamide",
+    "issuedAt": "2026-10-29",
+    "expiresAt": "2027-02-26",
+    "decisionPdfUrl": "https://agriculture.gouv.fr/telecharger/156615",
+    "sourcePageUrl": "https://agriculture.gouv.fr/produits-phytopharmaceutiques-autorisations-de-mise-sur-le-marche-dune-duree-maximale-de-120-jours",
+    "sourceRetrievedAt": "2026-10-16T09:47:35Z",
+    "sourceStatus": "current",
+    "id": "article53-4dacb58057c306e8332d"
+  },
+  {
     "amm": "2210798",
     "productName": "REVYONA",
     "cultures": "bananier",
@@ -26,6 +54,20 @@
     "sourceRetrievedAt": "2026-10-02T11:49:03Z",
     "sourceStatus": "current",
     "id": "article53-8d50f0ab67d56c4800bf"
+  },
+  {
+    "amm": "2120057",
+    "productName": "TRICO",
+    "cultures": "Arbres à feuilles caduques, conifères",
+    "purpose": "Cervidés",
+    "activeSubstances": "Graisse de mouton",
+    "issuedAt": "2026-10-15",
+    "expiresAt": "2027-02-12",
+    "decisionPdfUrl": "https://agriculture.gouv.fr/telecharger/156618",
+    "sourcePageUrl": "https://agriculture.gouv.fr/produits-phytopharmaceutiques-autorisations-de-mise-sur-le-marche-dune-duree-maximale-de-120-jours",
+    "sourceRetrievedAt": "2026-10-16T09:47:35Z",
+    "sourceStatus": "current",
+    "id": "article53-1313d604d7eee636a200"
   },
   {
     "amm": "2090127",
@@ -668,7 +710,7 @@
     "decisionPdfUrl": "https://agriculture.gouv.fr/telecharger/154930",
     "sourcePageUrl": "https://agriculture.gouv.fr/produits-phytopharmaceutiques-autorisations-de-mise-sur-le-marche-dune-duree-maximale-de-120-jours",
     "sourceRetrievedAt": "2026-10-02T11:49:03Z",
-    "sourceStatus": "current",
+    "sourceStatus": "historical",
     "id": "article53-781909741c273d0b9fed"
   },
   {
@@ -696,7 +738,7 @@
     "decisionPdfUrl": "https://agriculture.gouv.fr/telecharger/154969",
     "sourcePageUrl": "https://agriculture.gouv.fr/produits-phytopharmaceutiques-autorisations-de-mise-sur-le-marche-dune-duree-maximale-de-120-jours",
     "sourceRetrievedAt": "2026-10-02T11:49:03Z",
-    "sourceStatus": "current",
+    "sourceStatus": "historical",
     "id": "article53-75da0e96554bbbe3fee8"
   },
   {
