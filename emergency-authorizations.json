@@ -1,5 +1,19 @@
 [
   {
+    "amm": "2249996",
+    "productName": "CHRYSOTECH",
+    "cultures": "Tomate - aubergine (sous abris)",
+    "purpose": "Noctuelle de l'artichaut",
+    "activeSubstances": "(Z)-7-dodecenyl acétate + (Z)-9-tetradecenyl acétate",
+    "issuedAt": "2026-11-10",
+    "expiresAt": "2027-03-10",
+    "decisionPdfUrl": "https://agriculture.gouv.fr/telecharger/156738",
+    "sourcePageUrl": "https://agriculture.gouv.fr/produits-phytopharmaceutiques-autorisations-de-mise-sur-le-marche-dune-duree-maximale-de-120-jours",
+    "sourceRetrievedAt": "2026-10-26T11:05:51Z",
+    "sourceStatus": "current",
+    "id": "article53-d584f5d6024f95dcb87e"
+  },
+  {
     "amm": "2229997",
     "productName": "VINAIGRE D'ALCOOL cristal",
     "cultures": "Oignon, échalote",
@@ -26,6 +40,34 @@
     "sourceRetrievedAt": "2026-10-16T09:47:35Z",
     "sourceStatus": "current",
     "id": "article53-4dacb58057c306e8332d"
+  },
+  {
+    "amm": "8400528",
+    "productName": "CENT 7",
+    "cultures": "Arbres et arbustes, Rosier, Cultures florales et plantes vertes",
+    "purpose": "Adventices annuelles",
+    "activeSubstances": "Isoxaben",
+    "issuedAt": "2026-10-26",
+    "expiresAt": "2027-02-23",
+    "decisionPdfUrl": "https://agriculture.gouv.fr/telecharger/156735",
+    "sourcePageUrl": "https://agriculture.gouv.fr/produits-phytopharmaceutiques-autorisations-de-mise-sur-le-marche-dune-duree-maximale-de-120-jours",
+    "sourceRetrievedAt": "2026-10-26T11:05:51Z",
+    "sourceStatus": "current",
+    "id": "article53-fce907a6f6d494c78c8f"
+  },
+  {
+    "amm": "2010023",
+    "productName": "DECIS PROTECH",
+    "cultures": "Tomate plein champ",
+    "purpose": "Cécidomyies: Contarinia maculipennis et Contarinia lycopersici",
+    "activeSubstances": "deltaméthrine",
+    "issuedAt": "2026-10-19",
+    "expiresAt": "2027-02-16",
+    "decisionPdfUrl": "https://agriculture.gouv.fr/telecharger/156741",
+    "sourcePageUrl": "https://agriculture.gouv.fr/produits-phytopharmaceutiques-autorisations-de-mise-sur-le-marche-dune-duree-maximale-de-120-jours",
+    "sourceRetrievedAt": "2026-10-26T11:05:51Z",
+    "sourceStatus": "current",
+    "id": "article53-a39eaf67143b4592bdef"
   },
   {
     "amm": "2210798",
@@ -556,7 +598,7 @@
     "decisionPdfUrl": "https://agriculture.gouv.fr/telecharger/155041",
     "sourcePageUrl": "https://agriculture.gouv.fr/produits-phytopharmaceutiques-autorisations-de-mise-sur-le-marche-dune-duree-maximale-de-120-jours",
     "sourceRetrievedAt": "2026-10-02T11:49:03Z",
-    "sourceStatus": "current",
+    "sourceStatus": "historical",
     "id": "article53-a2813acb0cafa92beb44"
   },
   {
@@ -570,7 +612,7 @@
     "decisionPdfUrl": "https://agriculture.gouv.fr/telecharger/155044",
     "sourcePageUrl": "https://agriculture.gouv.fr/produits-phytopharmaceutiques-autorisations-de-mise-sur-le-marche-dune-duree-maximale-de-120-jours",
     "sourceRetrievedAt": "2026-10-02T11:49:03Z",
-    "sourceStatus": "current",
+    "sourceStatus": "historical",
     "id": "article53-18b99f39d15dd16e867e"
   },
   {
@@ -584,7 +626,7 @@
     "decisionPdfUrl": "https://agriculture.gouv.fr/telecharger/155038",
     "sourcePageUrl": "https://agriculture.gouv.fr/produits-phytopharmaceutiques-autorisations-de-mise-sur-le-marche-dune-duree-maximale-de-120-jours",
     "sourceRetrievedAt": "2026-10-02T11:49:03Z",
-    "sourceStatus": "current",
+    "sourceStatus": "historical",
     "id": "article53-ae912a67223c8c24f7bf"
   },
   {
@@ -598,7 +640,7 @@
     "decisionPdfUrl": "https://agriculture.gouv.fr/telecharger/155047",
     "sourcePageUrl": "https://agriculture.gouv.fr/produits-phytopharmaceutiques-autorisations-de-mise-sur-le-marche-dune-duree-maximale-de-120-jours",
     "sourceRetrievedAt": "2026-10-02T11:49:03Z",
-    "sourceStatus": "current",
+    "sourceStatus": "historical",
     "id": "article53-dfd1a6b29c36d5fca12d"
   },
   {
@@ -612,7 +654,7 @@
     "decisionPdfUrl": "https://agriculture.gouv.fr/telecharger/155035",
     "sourcePageUrl": "https://agriculture.gouv.fr/produits-phytopharmaceutiques-autorisations-de-mise-sur-le-marche-dune-duree-maximale-de-120-jours",
     "sourceRetrievedAt": "2026-10-02T11:49:03Z",
-    "sourceStatus": "current",
+    "sourceStatus": "historical",
     "id": "article53-64bd761780093ee2585c"
   },
   {
@@ -626,7 +668,7 @@
     "decisionPdfUrl": "https://agriculture.gouv.fr/telecharger/154951",
     "sourcePageUrl": "https://agriculture.gouv.fr/produits-phytopharmaceutiques-autorisations-de-mise-sur-le-marche-dune-duree-maximale-de-120-jours",
     "sourceRetrievedAt": "2026-10-02T11:49:03Z",
-    "sourceStatus": "current",
+    "sourceStatus": "historical",
     "id": "article53-35a77871721ca32be318"
   },
   {
@@ -640,7 +682,7 @@
     "decisionPdfUrl": "https://agriculture.gouv.fr/telecharger/154939",
     "sourcePageUrl": "https://agriculture.gouv.fr/produits-phytopharmaceutiques-autorisations-de-mise-sur-le-marche-dune-duree-maximale-de-120-jours",
     "sourceRetrievedAt": "2026-10-02T11:49:03Z",
-    "sourceStatus": "current",
+    "sourceStatus": "historical",
     "id": "article53-448423fabdf189ad0c15"
   },
   {
@@ -654,7 +696,7 @@
     "decisionPdfUrl": "https://agriculture.gouv.fr/telecharger/154945",
     "sourcePageUrl": "https://agriculture.gouv.fr/produits-phytopharmaceutiques-autorisations-de-mise-sur-le-marche-dune-duree-maximale-de-120-jours",
     "sourceRetrievedAt": "2026-10-02T11:49:03Z",
-    "sourceStatus": "current",
+    "sourceStatus": "historical",
     "id": "article53-72bb173c2b58f2244e0e"
   },
   {
@@ -668,7 +710,7 @@
     "decisionPdfUrl": "https://agriculture.gouv.fr/telecharger/154933",
     "sourcePageUrl": "https://agriculture.gouv.fr/produits-phytopharmaceutiques-autorisations-de-mise-sur-le-marche-dune-duree-maximale-de-120-jours",
     "sourceRetrievedAt": "2026-10-02T11:49:03Z",
-    "sourceStatus": "current",
+    "sourceStatus": "historical",
     "id": "article53-3123f5e4efdcc32e835f"
   },
   {
@@ -682,7 +724,7 @@
     "decisionPdfUrl": "https://agriculture.gouv.fr/telecharger/154948",
     "sourcePageUrl": "https://agriculture.gouv.fr/produits-phytopharmaceutiques-autorisations-de-mise-sur-le-marche-dune-duree-maximale-de-120-jours",
     "sourceRetrievedAt": "2026-10-02T11:49:03Z",
-    "sourceStatus": "current",
+    "sourceStatus": "historical",
     "id": "article53-fcc34fa634bb7ad7cb38"
   },
   {
@@ -696,7 +738,7 @@
     "decisionPdfUrl": "https://agriculture.gouv.fr/telecharger/154936",
     "sourcePageUrl": "https://agriculture.gouv.fr/produits-phytopharmaceutiques-autorisations-de-mise-sur-le-marche-dune-duree-maximale-de-120-jours",
     "sourceRetrievedAt": "2026-10-02T11:49:03Z",
-    "sourceStatus": "current",
+    "sourceStatus": "historical",
     "id": "article53-4fa9dc5f1c41e193f5ff"
   },
   {
@@ -724,7 +766,7 @@
     "decisionPdfUrl": "https://agriculture.gouv.fr/telecharger/154942",
     "sourcePageUrl": "https://agriculture.gouv.fr/produits-phytopharmaceutiques-autorisations-de-mise-sur-le-marche-dune-duree-maximale-de-120-jours",
     "sourceRetrievedAt": "2026-10-02T11:49:03Z",
-    "sourceStatus": "current",
+    "sourceStatus": "historical",
     "id": "article53-76c5467987259d2a35c8"
   },
   {
