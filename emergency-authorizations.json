@@ -14,6 +14,20 @@
     "id": "article53-d584f5d6024f95dcb87e"
   },
   {
+    "amm": "2160752",
+    "productName": "ONYX",
+    "cultures": "Canne à sucre",
+    "purpose": "Adventices dicotylédones",
+    "activeSubstances": "Pyridate",
+    "issuedAt": "2026-11-07",
+    "expiresAt": "2027-03-07",
+    "decisionPdfUrl": "https://agriculture.gouv.fr/telecharger/156840",
+    "sourcePageUrl": "https://agriculture.gouv.fr/produits-phytopharmaceutiques-autorisations-de-mise-sur-le-marche-dune-duree-maximale-de-120-jours",
+    "sourceRetrievedAt": "2026-11-05T13:11:04Z",
+    "sourceStatus": "current",
+    "id": "article53-418d0489353e08076938"
+  },
+  {
     "amm": "2229997",
     "productName": "VINAIGRE D'ALCOOL cristal",
     "cultures": "Oignon, échalote",
@@ -486,7 +500,7 @@
     "decisionPdfUrl": "https://agriculture.gouv.fr/telecharger/155303",
     "sourcePageUrl": "https://agriculture.gouv.fr/produits-phytopharmaceutiques-autorisations-de-mise-sur-le-marche-dune-duree-maximale-de-120-jours",
     "sourceRetrievedAt": "2026-10-02T11:49:03Z",
-    "sourceStatus": "current",
+    "sourceStatus": "historical",
     "id": "article53-4c7f093e013b8393b5d2"
   },
   {
@@ -500,7 +514,7 @@
     "decisionPdfUrl": "https://agriculture.gouv.fr/telecharger/155137",
     "sourcePageUrl": "https://agriculture.gouv.fr/produits-phytopharmaceutiques-autorisations-de-mise-sur-le-marche-dune-duree-maximale-de-120-jours",
     "sourceRetrievedAt": "2026-10-02T11:49:03Z",
-    "sourceStatus": "current",
+    "sourceStatus": "historical",
     "id": "article53-1dedcdcd1753afbbcdee"
   },
   {
@@ -514,7 +528,7 @@
     "decisionPdfUrl": "https://agriculture.gouv.fr/telecharger/155140",
     "sourcePageUrl": "https://agriculture.gouv.fr/produits-phytopharmaceutiques-autorisations-de-mise-sur-le-marche-dune-duree-maximale-de-120-jours",
     "sourceRetrievedAt": "2026-10-02T11:49:03Z",
-    "sourceStatus": "current",
+    "sourceStatus": "historical",
     "id": "article53-ffec6a3276511bfb5b18"
   },
   {
@@ -528,7 +542,7 @@
     "decisionPdfUrl": "https://agriculture.gouv.fr/telecharger/155134",
     "sourcePageUrl": "https://agriculture.gouv.fr/produits-phytopharmaceutiques-autorisations-de-mise-sur-le-marche-dune-duree-maximale-de-120-jours",
     "sourceRetrievedAt": "2026-10-02T11:49:03Z",
-    "sourceStatus": "current",
+    "sourceStatus": "historical",
     "id": "article53-9340f4b29c5f6cdeeb55"
   },
   {
@@ -542,7 +556,7 @@
     "decisionPdfUrl": "https://agriculture.gouv.fr/telecharger/155131",
     "sourcePageUrl": "https://agriculture.gouv.fr/produits-phytopharmaceutiques-autorisations-de-mise-sur-le-marche-dune-duree-maximale-de-120-jours",
     "sourceRetrievedAt": "2026-10-02T11:49:03Z",
-    "sourceStatus": "current",
+    "sourceStatus": "historical",
     "id": "article53-aeb827c40b0f5ad717e3"
   },
   {
@@ -556,7 +570,7 @@
     "decisionPdfUrl": "https://agriculture.gouv.fr/telecharger/155125",
     "sourcePageUrl": "https://agriculture.gouv.fr/produits-phytopharmaceutiques-autorisations-de-mise-sur-le-marche-dune-duree-maximale-de-120-jours",
     "sourceRetrievedAt": "2026-10-02T11:49:03Z",
-    "sourceStatus": "current",
+    "sourceStatus": "historical",
     "id": "article53-765a71cb9e93bcef3e91"
   },
   {
@@ -570,7 +584,7 @@
     "decisionPdfUrl": "https://agriculture.gouv.fr/telecharger/155122",
     "sourcePageUrl": "https://agriculture.gouv.fr/produits-phytopharmaceutiques-autorisations-de-mise-sur-le-marche-dune-duree-maximale-de-120-jours",
     "sourceRetrievedAt": "2026-10-02T11:49:03Z",
-    "sourceStatus": "current",
+    "sourceStatus": "historical",
     "id": "article53-ed1002bced58bfbf82ed"
   },
   {
@@ -584,7 +598,7 @@
     "decisionPdfUrl": "https://agriculture.gouv.fr/telecharger/155128",
     "sourcePageUrl": "https://agriculture.gouv.fr/produits-phytopharmaceutiques-autorisations-de-mise-sur-le-marche-dune-duree-maximale-de-120-jours",
     "sourceRetrievedAt": "2026-10-02T11:49:03Z",
-    "sourceStatus": "current",
+    "sourceStatus": "historical",
     "id": "article53-f541cbf39ac545ea7e07"
   },
   {
